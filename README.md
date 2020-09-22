@@ -135,7 +135,7 @@ Luca
 
 
 #### Bestehende Container als Backend, Desktop-App als Frontend  einsetzen
-Luca
+Cedric
 
 #### Volumes zur persistenten Datenablage eingerichtet
 Cedric
@@ -155,7 +155,6 @@ docker log | Log seit Image
 
 
 #### Eingerichtete Umgebung ist dokumentiert (Umgebungs-Variablen, Netzwerkplan gezeichnet, Schichtenmodell, Sicherheitsaspekte)
-Umgebnung - Luca
 
 ###### Container 
 Folgende Container werden erstellt
@@ -239,7 +238,7 @@ Luca
 Cedric
 
 #### Image-Bereitstellung
-Cedric
+Luca
 
 #### Continuous Integration
 Cedric
