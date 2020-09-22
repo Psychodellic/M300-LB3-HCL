@@ -20,6 +20,8 @@
 * Cedric Kupper
 
 ## Projektbeschrieb
+Luca 
+Cedric
 
 
 ## Ablage Vagrantfile
@@ -112,10 +114,14 @@ Usernames
 
 ## K3
 #### Bestehenden Docker-Dontainer kombinieren
+Luca 
+
 
 #### Bestehende Container als Backend, Desktop-App als Frontend  einsetzen
+Luca
 
 #### Volumes zur persistenten Datenablage eingerichtet
+Cedric
 
 #### Kennt die Docker spezifischen Befehle
 Einige wichtige Docker befehle:
@@ -123,20 +129,31 @@ Befehl | Funktion
 ------------ | -------------
 Befehl | Funktion
 
-#### ingerichtete Umgebung ist dokumentiert (Umgebungs-Variablen, Netzwerkplan gezeichnet, Schichtenmodell, Sicherheitsaspekte)
+#### Eingerichtete Umgebung ist dokumentiert (Umgebungs-Variablen, Netzwerkplan gezeichnet, Schichtenmodell, Sicherheitsaspekte)
+Umgebnung - Luca
+
+Netzwerkplan - Haris 
+
+Sicherheitsaspekte - Haris
 
 #### Funktionsweise getestet inkl. Dokumentation der Testfälle
-
+Luca 
+Hari
 
 
 ## K4
 #### Service-Überwachung ist eingerichtet
+Luca
 
 #### Aktive Benachrichtigung ist eingerichtet
+Luca
 
 #### mind. 3 Aspekte der Container-Absicherung sind berücksichtigt
+Cedrc
+Haris
 
 #### Sicherheitsmassnahmen sind dokumentiert (Bezug zur eingerichteten Umgebung ist vorhanden)
+Haris
 
 #### Projekt mit Git und Markdown dokumentiert
 
@@ -155,12 +172,19 @@ Befehl | Funktion
 
 ## K6
 #### Umfangreiche Vernetzung der Container-Infrastruktur (Ansätze für reale Nutzungszenarien)
+Luca 
+Cedric
 
 #### Image-Bereitstellung
+Cedric
 
 #### Continuous Integration
+Cedric
 
 #### Cloud-Integration
+Luca 
+Cedric
 
 #### Elemente aus Kubernetesübung sind dokumentiert
+
 
