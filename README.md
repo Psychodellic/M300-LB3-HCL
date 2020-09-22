@@ -124,7 +124,7 @@ Usernames
 Einige wichtige Docker befehle:
 Befehl | Funktion
 ------------ | -------------
-
+Befehl | Funktion
 
 #### ingerichtete Umgebung ist dokumentiert (Umgebungs-Variablen, Netzwerkplan gezeichnet, Schichtenmodell, Sicherheitsaspekte)
 
