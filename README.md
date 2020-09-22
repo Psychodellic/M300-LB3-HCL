@@ -20,7 +20,7 @@
 * Cedric Kupper
 
 ## Projektbeschrieb
-Luca 
+Luca
 Cedric
 
 
@@ -115,7 +115,7 @@ Ausserhalb von Azure wie zum Beispiel jetzt mit Docker hatte ich noch nie mit Co
 
 
 ## K3
-#### Bestehenden Docker-Dontainer kombinieren
+#### Bestehenden Docker-Container kombinieren
 Luca 
 
 
@@ -144,21 +144,58 @@ Luca
 #### Eingerichtete Umgebung ist dokumentiert (Umgebungs-Variablen, Netzwerkplan gezeichnet, Schichtenmodell, Sicherheitsaspekte)
 Umgebnung - Luca
 
-Netzwerkplan - Haris 
+###### Container 
+Folgende Container werden erstellt
+Docker | Funktion
+------------ | -------------
+Datenbank | Docker mit MySQL mit der Datenbank Wordpress
+Web | Docker mit Apache2 um Wordpressseite bereitzustellen
+Monitoring | Docker der die Services Monitort
 
-Sicherheitsaspekte - Haris
+
+##### Netzwerkplan - Haris 
+
+##### Sicherheitsaspekte - Haris
+* mach bitte es paar unterpünkt wie ich Monitorig gmacht han
+
+###### Monitoring 
+Docker von Docker Hub: https://hub.docker.com/_/heartbeat
+
+Docker wurde aufgesetzt um alle Services zu Monitoren
+Der Docker prüft alle paar Sekunden ob der Service noch zur Verfügung steht
+-> Alles wird auf einer Weboberfläche schön dargestellt
 
 #### Funktionsweise getestet inkl. Dokumentation der Testfälle
-Luca 
-Hari
+##### SQL
+
+Testfall  | Erwartete Aktion |Erfolgreich / nicht erfolgreich
+------------ | ------------- | -------------
+SQL ist installiert | SQL Konsole verfügbar -> mysql -uroot -p | erfolgreich 
+SQL "Wordpress" Datenbank ist verfügbar | SHOW DATABASES ausführen; Wordpress sollte aufgelistet sein |  erfolgreich 
+User Wordpress hat Berechtigung auf Wordpress Datebank | SHOW GRANTS FOR 'Wordpress'@'localhost'; Berechtigung auf Wordpress Datanbank | erfolgreich
+
+##### Webserver
+
+Testfall  | Erwartete Aktion |Erfolgreich / nicht erfolgreich
+------------ | ------------- | -------------
+Apache2 ist installiert | Apche2 Pfad vorhanden (/etc/apache2/) und service kann gestartet werden | erfolgreich
+PHP ist installiert | PHP service kann gestartet werden | erfolgreich
+Wordpress ist installiert | Wordpress Modul sind vorhanden | erfolgreich
+Wordpressseite wurde in apache erstellt | wordpress.conf Ordner ist unter Folgendem Pfad erstellt -> /etc/apache2/sites-available/ und konfiguration ist vorhanden | erfolgreich
+Wordpress ist mit Datenbank verbunden | //etc/wordpress/config-localhost.php ist konfigruriet und sql server ist hinterlegt; spich IP: 192.168.1.11 | erfolgreich
+Wordpress Standard Seite ist erreichbar | Standardseite wird angezeigt | erfolgreich
+
+Unter der folgender IP 192.168.1.1o erscheint folgende Seite (Wordpress Standardseite) - was heisst die installation war erfolgreich.
+![](images/wordpress.PNG)
 
 
 ## K4
 #### Service-Überwachung ist eingerichtet
-Luca
+Siehe Punkt[Monitoring]()
 
 #### Aktive Benachrichtigung ist eingerichtet
-Luca
+Wird auf Webgui aktive gazeigt:
+
 
 #### mind. 3 Aspekte der Container-Absicherung sind berücksichtigt
 Cedrc
