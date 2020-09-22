@@ -20,9 +20,24 @@
 * Cedric Kupper
 
 ## Projektbeschrieb
-Luca
-Cedric
+Wir wollen 3 sogennante Container mit der Software Docker in unserem Projekt umsetzen.
+Folgenden Services wollte wir in Docker erstellen:
 
+#### Web Container
+Einen Container worauf Apache php und Wordpress installiert und kofiguriert ist. 
+Das Vagrantfile sollte automatisch Wordpress, PHP und Apache installieren und dies wie folgt einrichten:
+* Apache: sollte automatisch Wordpressseite erstellen
+* Wordpress: sollte automatisch mit der SQL Datenbank verbunden werden die auf der VM srvsql03 liegt
+
+#### Datenbank Container
+Eine Container worauf SQl installiert und konfiguriert ist
+Das Vagrantfile sollte automatisch SQL instalieren und folgendes konfigruieren
+* Datenbank namens "Wordpress" erstellen
+* Wordpress user anlegen und auf Datenbank Wordpress berechtigen
+
+#### Monitoring Container
+Ein Container die die anderen Container überwacht.
+Alle zur verüfugung gestellten Services sollten mit diesem Container aus Sicherhetisgründen überwacht werden.
 
 ## Ablage Vagrantfile
 Alle Vagrantfiles findet man [hier](https://github.com/cdrc-kppr/M300-LB3-HCL/tree/master/Files)
@@ -139,8 +154,6 @@ docker stop | stoppr Container
 docker log | Log seit Image
 
 
-Luca
-
 #### Eingerichtete Umgebung ist dokumentiert (Umgebungs-Variablen, Netzwerkplan gezeichnet, Schichtenmodell, Sicherheitsaspekte)
 Umgebnung - Luca
 
@@ -160,6 +173,7 @@ Monitoring | Docker der die Services Monitort
 
 ###### Monitoring 
 Docker von Docker Hub: https://hub.docker.com/_/heartbeat
+--> ``` docker pull store/elastic/heartbeat:7.9.1 ```
 
 Docker wurde aufgesetzt um alle Services zu Monitoren
 Der Docker prüft alle paar Sekunden ob der Service noch zur Verfügung steht
