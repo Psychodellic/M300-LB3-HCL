@@ -3,7 +3,7 @@
 ### Inhaltsverzeichnis
 * [Team  Übersicht]()
 * [Projektbeschrieb]()
-* [Ablage Vagrantfiles]()
+* [Ablage Dockerfiles]()
 * [Gliederung]()
 * [K1]()
 * [K2]()
@@ -40,7 +40,7 @@ Ein Container die die anderen Container überwacht.
 Alle zur verüfugung gestellten Services sollten mit diesem Container aus Sicherhetisgründen überwacht werden.
 
 ## Ablage Dockerfiles
-Alle Vagrantfiles findet man [hier](https://github.com/cdrc-kppr/M300-LB3-HCL/tree/master/dockerfiles)
+Alle Dockerfiles findet man [hier](https://github.com/cdrc-kppr/M300-LB3-HCL/tree/master/dockerfiles)
 
 
 ## Gliederung
@@ -139,6 +139,7 @@ Cedric
 
 #### Volumes zur persistenten Datenablage eingerichtet
 Auf allen Container wurde das VOLUME ./archive hinzugefügt. Darin sollen dann Immer mal wieder daten archiviert werden.
+
 ```VOLUME /data/archive```
 
 #### Kennt die Docker spezifischen Befehle
@@ -240,7 +241,11 @@ Ausserdem habe ich nun auch GitHub besser kennelernen können was meiner Meinung
 Mit Haris und Cedric konnte ich auch sehr gut arbeitet. Die Arbeit haben wir sehr gut unter uns 3 Aufgeteilt und uns gegenseitig geholfen.
 
 ##### Cedric Kupper
+Ich hatte bisher nur sehr wenig Erfahrung mit Virtuellen Serverumgebungen, Containern und Microservices allgemein, mit Docker gar keine. Jetzt kann ich schon sehr gut damit umgehen und einfache abläufe sind sehr schnell umgesetzt. Ich konnte durch ausprobieren, ein wenig recherche und etwas Hilfe von meinen Teamkameraden sehr viel über Docker dazulernen. Auch mit Git-Hub, bzw. Versionsverwaltungstools hab ich einen besseren überblick erhalten. Nach ausprobieren und testen ging es immer besser. Mitlerweile habe ich ein gutes Grundwissen und kan relativ gut damit umgehen.
 
+Die zusammenarbeit im Team hat sehr gut funktioniert. Die aufgaben wurden gerecht aufgeteilt und dementsprechen umgesetzt.
+
+Das Projekt hat mich sehr gut weitergebracht. Ich denke ich werde sehr vieles davon (Docker und Git-Hub) in der Zukunft brauchen können. Vorallem Git-Hub, für gute, einfache und übersichtliche Dokumentationen.
 
 ##### Haris Chandrakumar
 
