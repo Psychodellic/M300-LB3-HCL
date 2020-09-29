@@ -237,6 +237,10 @@ Haris
 Luca 
 Cedric
 
+Unsere 3 Container sind alle mit einander vernetzt und verbunden.
+Der Webconrainer hollt sich die Datenbank vom Datenbank container mit den eigenen Credentials. In der Datenbank arbeiet Wordpress.
+Ausserdem Überwacht unserer Monitoring Container die andere 2 und gib auf einem Webdashboard auskunft über diese. 
+
 #### Image-Bereitstellung
 Luca
 
