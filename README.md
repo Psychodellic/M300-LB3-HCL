@@ -234,15 +234,17 @@ Haris
 
 ## K6
 #### Umfangreiche Vernetzung der Container-Infrastruktur (Ansätze für reale Nutzungszenarien)
-Luca 
-Cedric
 
 Unsere 3 Container sind alle mit einander vernetzt und verbunden.
 Der Webconrainer hollt sich die Datenbank vom Datenbank container mit den eigenen Credentials. In der Datenbank arbeiet Wordpress.
 Ausserdem Überwacht unserer Monitoring Container die andere 2 und gib auf einem Webdashboard auskunft über diese. 
 
 #### Image-Bereitstellung
-Luca
+* Account auf DockerHub gemacht
+* DockerHub Account mit GitHub verbunden 
+* Repository auf DockerHub erstellt
+--> 775577/modul300
+
 
 #### Continuous Integration
 Cedric
