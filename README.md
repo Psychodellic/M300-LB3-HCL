@@ -207,7 +207,7 @@ Unter der folgender IP 192.168.1.11 erscheint folgende Seite (Wordpress Standard
 
 ## K4
 #### Service-Überwachung ist eingerichtet
-Siehe Punkt[Monitoring]()
+Siehe Punkt: [Monitoring]()
 
 #### Aktive Benachrichtigung ist eingerichtet
 Wird auf Webgui aktive gazeigt:
