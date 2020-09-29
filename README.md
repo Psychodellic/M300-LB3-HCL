@@ -167,6 +167,9 @@ Monitoring | Docker der die Services Monitort
 
 ##### Netzwerkplan - Haris 
 
+![](images/NW_plan.png)
+
+
 ##### Sicherheitsaspekte - Haris
 * mach bitte es paar unterpünkt wie ich Monitorig gmacht han
 
