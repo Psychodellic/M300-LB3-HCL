@@ -265,7 +265,10 @@ Ausserdem Überwacht unserer Monitoring Container die andere 2 und gib auf einem
 
 
 #### Continuous Integration
-Cedric
+Definition:
+``Kontinuierliche Integration ist ein Begriff aus der Software-Entwicklung, der den Prozess des fortlaufenden Zusammenfügens von Komponenten zu einer Anwendung beschreibt. Das Ziel der kontinuierlichen Integration ist die Steigerung der Softwarequalität.``
+
+Dies ist bei und Theoretisch umsetzbar, Praktisch aber nicht wirklich sinvoll. Die Umgebung ist darauf angelegt lange zu laufen so wie sie ist. Sollte man aber mal Updates machen wollen, kann man diese ohne Probleme durchfüren.
 
 #### Cloud-Integration
 Luca 
