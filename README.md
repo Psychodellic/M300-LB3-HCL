@@ -218,7 +218,14 @@ Cedrc
 Haris
 
 #### Sicherheitsmassnahmen sind dokumentiert (Bezug zur eingerichteten Umgebung ist vorhanden)
-Haris
+
+#####Portmatrix
+Host | Port | IP
+------------ | ------------- | ------------- 
+Webserver | 80 | 192.168.1.11
+SQL-Server | 1433 | 192.168.1.3
+Monitoring | 80, 1433 | 192.168.1.4
+Firewall | 80, 22 | 192.168.1.1
 
 #### Projekt mit Git und Markdown dokumentiert
 * Siehe [hier](https://github.com/cdrc-kppr/M300-LB3-HCL)
