@@ -171,7 +171,7 @@ Monitoring | Docker der die Services Monitort
 
 
 ##### Sicherheitsaspekte - Haris
-* mach bitte es paar unterpünkt wie ich Monitorig gmacht han
+Als unsere Sicherheit dient natürlich unsere Firewall und unser Monitoring System. Dank dem Monitoring können wir Sensoren setzen wo wir kontrollieren können wie Ausgelastet unser Server ist und ob bedarf besteht es zu erweitern wie zum Beispiel bei RAM, HDD etc. so können wir früh genug reagieren ohne das es Ausfälle gibt. Bei unserer Firewall sind nur die Ports Offen die benötigt werden um miteinander zu kommunizieren.
 
 ###### Monitoring 
 Docker von Docker Hub: https://hub.docker.com/_/heartbeat
