@@ -107,14 +107,14 @@ Usernames
 
 
 #### Dokumentation ist als Mark Down vorhanden
-* Siehe [hier](https://github.com/cdrc-kppr/M300-KCL)
+* Siehe [hier](https://github.com/cdrc-kppr/M300-LB3-HCL)
 
 
 #### Mark down-Editor ausgewählt und eingerichtet
-* Siehe [hier](https://github.com/cdrc-kppr/M300-KCL)
+* Siehe [hier](https://github.com/cdrc-kppr/M300-LB3-HCL)
 
 #### Mark down ist strukturiert
-* Siehe [hier](https://github.com/cdrc-kppr/M300-KCL)
+* Siehe [hier](https://github.com/cdrc-kppr/M300-LB3-HCL)
 
 #### Persönlicher Wissenstand im Bezug auf die wichtigsten Themen ist dokumentiert (Containerisierung / Docker, Microservices)
 ##### Luca Kiefer
@@ -210,7 +210,7 @@ Unter der folgender IP 192.168.1.11 erscheint folgende Seite (Wordpress Standard
 Siehe Punkt: [Monitoring]()
 
 #### Aktive Benachrichtigung ist eingerichtet
-Wird auf Webgui aktive gazeigt:
+Wird auf Webgui aktiv angezeigt.
 
 
 #### mind. 3 Aspekte der Container-Absicherung sind berücksichtigt
@@ -221,7 +221,7 @@ Haris
 Haris
 
 #### Projekt mit Git und Markdown dokumentiert
-
+* Siehe [hier](https://github.com/cdrc-kppr/M300-LB3-HCL)
 
 ## K5
 
