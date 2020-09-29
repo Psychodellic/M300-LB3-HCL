@@ -116,14 +116,14 @@ Usernames
 #### Mark down ist strukturiert
 * Siehe [hier](https://github.com/cdrc-kppr/M300-KCL)
 
-#### Persönlicher Wissenstand im Bezug auf die wichtigsten Themen ist dokumentiert (Containerisierung / Docker, Microservices(
+#### Persönlicher Wissenstand im Bezug auf die wichtigsten Themen ist dokumentiert (Containerisierung / Docker, Microservices)
 ##### Luca Kiefer
-Mit so Services habe ich bisher nur im Azure gearbeitet. Diese Services die man von Microsoft im Azure beziehen kann sind meiner Meinung nach auch Container und sogennant Microservices. 
+Mit solchen Services habe ich bisher nur im Azure gearbeitet. Diese Services die man von Microsoft im Azure beziehen kann sind meiner Meinung nach auch Container und sogennant Microservices. 
 Gearbeitet habe ich bisher mit folgenden Azure Container/Services: Azuer Active Directory, Azure VPN, Azure Monitoring und einigen mehr.
 Ausserhalb von Azure wie zum Beispiel jetzt mit Docker hatte ich noch nie mit Container zu tun
 
 ##### Cedric Kupper
-
+Bis jetzt hatte ich noch nicht wirklich mit Container gearbeitet. Ich habe schon davon gehört aber nie genutzt. Das bedeuted ich arbeite in diesem Modul das erste mal effektiv mit Docker und Microservices.
 
 ##### Haris Chandrakumar
 
