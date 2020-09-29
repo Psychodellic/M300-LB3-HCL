@@ -5,7 +5,7 @@
 #Wordpres, php und Apache installieren-------------------------------
 
 	RUN apt-get update -y
-	CMD sudo timedatectl set-timezone Europe/Rome
+	RUN sudo timedatectl set-timezone Europe/Rome
 	RUN apt-get install wordpress php libapache2-mod-php -y 
 	
 
@@ -31,16 +31,17 @@
 	RUN service apache2 reload
 
 #Wordpress mit Datenbank verbinden
-	RUN echo "<?php"
-	RUN echo "define('DB_NAME', 'wordpress');" > /etc/wordpress/config-localhost.php
-	RUN echo "define('DB_USER', 'wordpress');" > /etc/wordpress/config-localhost.php
-	RUN echo "define('DB_PASSWORD', 'Test123');" > /etc/wordpress/config-localhost.php
-	RUN echo "define('DB_HOST', '192.168.1.11');" > /etc/wordpress/config-localhost.php
-	RUN echo "define('DB_COLLATE', 'utf8_general_ci');" > /etc/wordpress/config-localhost.php
-	RUN echo "define('WP_CONTENT_DIR', '/usr/share/wordpress/wp-content');" > /etc/wordpress/config-localhost.php
-	RUN echo "?>" > /etc/wordpress/config-localhost.php
+	CMD echo "<?php"
+	CMD echo "define('DB_NAME', 'wordpress');" > /etc/wordpress/config-localhost.php
+	CMD echo "define('DB_USER', 'wordpress');" > /etc/wordpress/config-localhost.php
+	CMD echo "define('DB_PASSWORD', 'Test123');" > /etc/wordpress/config-localhost.php
+	CMD echo "define('DB_HOST', '192.168.1.11');" > /etc/wordpress/config-localhost.php
+	CMD echo "define('DB_COLLATE', 'utf8_general_ci');" > /etc/wordpress/config-localhost.php
+	CMD echo "define('WP_CONTENT_DIR', '/usr/share/wordpress/wp-content');" > /etc/wordpress/config-localhost.php
+	CMD echo "?>" > /etc/wordpress/config-localhost.php
 
 
 EXPOSE 80
 
 VOLUME /var/www/html
+VOLume /data/archive
