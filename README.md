@@ -224,7 +224,9 @@ Haris
 
 #### Reflexion
 ##### Luca Kiefer
-
+Ich konnte Container kennelernen und weiss nun was diese sind und können. Mit dieser Grundlage habe ich dann selber gelernt wie man solche mit Docker erstellt und verwaltet.
+Ausserdem habe ich nun auch GitHub besser kennelernen können was meiner Meinung nach eine sehrgute Verwaltungsplattform ist um technische Dokumentationen mit Code etc zu teilen.
+Mit Haris und Cedric konnte ich auch sehr gut arbeitet. Die Arbeit haben wir sehr gut unter uns 3 Aufgeteilt und uns gegenseitig geholfen.
 
 ##### Cedric Kupper
 
