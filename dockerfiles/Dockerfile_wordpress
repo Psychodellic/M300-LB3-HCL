@@ -1,0 +1,46 @@
+#Wordpress Apache Sever HCL------------------------------------------
+
+	FROM ubuntu:18.04
+
+#Wordpres, php und Apache installieren-------------------------------
+
+	RUN apt-get update -y
+	CMD sudo timedatectl set-timezone Europe/Rome
+	RUN apt-get install wordpress php libapache2-mod-php -y 
+	
+
+#Wordpress Seite in Apache2 erstellen--------------------------------
+
+	CMD echo "Alias /blog /usr/share/wordpress" > /etc/apache2/sites-available/wordpress.conf 
+	CMD echo "<Directory /usr/share/wordpress" > /etc/apache2/sites-available/wordpress.conf 
+	CMD echo "Options FollowSymLinks" > /etc/apache2/sites-available/wordpress.conf 
+	CMD echo "AllowOverride Limit Options FileInfo" > /etc/apache2/sites-available/wordpress.conf 
+	CMD echo "DirectoryIndex index.php" > /etc/apache2/sites-available/wordpress.conf 
+	CMD echo "Order allow,deny" > /etc/apache2/sites-available/wordpress.conf 
+	CMD echo "Allow from all" > /etc/apache2/sites-available/wordpress.conf 
+	CMD echo "</Directory>" > /etc/apache2/sites-available/wordpress.conf 
+	CMD echo "<Directory /usr/share/wordpress/wp-content>" > /etc/apache2/sites-available/wordpress.conf 
+	CMD echo "Options FollowSymLinks" > /etc/apache2/sites-available/wordpress.conf 
+	CMD echo "Order allow,deny" > /etc/apache2/sites-available/wordpress.conf 
+	CMD echo "Allow from all" > /etc/apache2/sites-available/wordpress.conf 
+	CMD echo "</Directory>" > /etc/apache2/sites-available/wordpress.conf 
+  
+#Wordpress Seite enablen
+	RUN a2ensite wordpress
+	RUN a2enmod rewrite
+	RUN service apache2 reload
+
+#Wordpress mit Datenbank verbinden
+	RUN echo "<?php"
+	RUN echo "define('DB_NAME', 'wordpress');" > /etc/wordpress/config-localhost.php
+	RUN echo "define('DB_USER', 'wordpress');" > /etc/wordpress/config-localhost.php
+	RUN echo "define('DB_PASSWORD', 'Test123');" > /etc/wordpress/config-localhost.php
+	RUN echo "define('DB_HOST', '192.168.1.11');" > /etc/wordpress/config-localhost.php
+	RUN echo "define('DB_COLLATE', 'utf8_general_ci');" > /etc/wordpress/config-localhost.php
+	RUN echo "define('WP_CONTENT_DIR', '/usr/share/wordpress/wp-content');" > /etc/wordpress/config-localhost.php
+	RUN echo "?>" > /etc/wordpress/config-localhost.php
+
+
+EXPOSE 80
+
+VOLUME /var/www/html
