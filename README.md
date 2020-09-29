@@ -138,7 +138,8 @@ Luca
 Cedric
 
 #### Volumes zur persistenten Datenablage eingerichtet
-Cedric
+Auf allen Container wurde das VOLUME ./archive hinzugefügt. Darin sollen dann Immer mal wieder daten archiviert werden.
+```VOLUME /data/archive```
 
 #### Kennt die Docker spezifischen Befehle
 Einige wichtige Docker befehle:
