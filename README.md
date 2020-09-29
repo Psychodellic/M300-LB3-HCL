@@ -198,7 +198,7 @@ Wordpressseite wurde in apache erstellt | wordpress.conf Ordner ist unter Folgen
 Wordpress ist mit Datenbank verbunden | //etc/wordpress/config-localhost.php ist konfigruriet und sql server ist hinterlegt; spich IP: 192.168.1.11 | erfolgreich
 Wordpress Standard Seite ist erreichbar | Standardseite wird angezeigt | erfolgreich
 
-Unter der folgender IP 192.168.1.1o erscheint folgende Seite (Wordpress Standardseite) - was heisst die installation war erfolgreich.
+Unter der folgender IP 192.168.1.11 erscheint folgende Seite (Wordpress Standardseite) - was heisst die installation war erfolgreich.
 ![](images/wordpress.PNG)
 
 
