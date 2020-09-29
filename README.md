@@ -126,7 +126,7 @@ Ausserhalb von Azure wie zum Beispiel jetzt mit Docker hatte ich noch nie mit Co
 Bis jetzt hatte ich noch nicht wirklich mit Container gearbeitet. Ich habe schon davon gehört aber nie genutzt. Das bedeuted ich arbeite in diesem Modul das erste mal effektiv mit Docker und Microservices.
 
 ##### Haris Chandrakumar
-
+Bis jetzt habe ich nur in einem ÜK mit Containern gearbeitet aber das war auch nicht per skript sondern ich hatte GUI es war das ÜK Virtualisierung. Da ich es schon im ÜK hatte kann ich mir vorstellen wie es funktioniert. In diesem Modul arbeite ich zum ersten mal mit Docker.
 
 
 ## K3
@@ -138,8 +138,7 @@ Luca
 Cedric
 
 #### Volumes zur persistenten Datenablage eingerichtet
-Auf allen Container wurde das VOLUME ./archive hinzugefügt. Darin sollen dann Immer mal wieder daten archiviert werden.
-```VOLUME /data/archive```
+Cedric
 
 #### Kennt die Docker spezifischen Befehle
 Einige wichtige Docker befehle:
