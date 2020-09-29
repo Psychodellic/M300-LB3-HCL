@@ -135,7 +135,7 @@ Luca
 
 
 #### Bestehende Container als Backend, Desktop-App als Frontend  einsetzen
-Cedric
+--
 
 #### Volumes zur persistenten Datenablage eingerichtet
 Auf allen Container wurde das VOLUME ./archive hinzugefügt. Darin sollen dann Immer mal wieder daten archiviert werden.
