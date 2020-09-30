@@ -270,10 +270,5 @@ Definition:
 
 Dies ist bei und Theoretisch umsetzbar, Praktisch aber nicht wirklich sinvoll. Die Umgebung ist darauf angelegt lange zu laufen so wie sie ist. Sollte man aber mal Updates machen wollen, kann man diese ohne Probleme durchfüren.
 
-#### Cloud-Integration
-Luca 
-Cedric
-
-#### Elemente aus Kubernetesübung sind dokumentiert
 
 
