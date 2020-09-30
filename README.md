@@ -129,6 +129,17 @@ Bis jetzt habe ich nur in einem ÜK mit Containern gearbeitet aber das war auch 
 #### Bestehenden Docker-Container kombinieren
 Eigene Container wurden miteinander Verbunden. Kubernetes verbindet den DAtenbacnk server mit dem Webserver.
 
+####Bestehende Container als Backend, Desktop-App als Frontend  einsetzen
+
+Unsere umgebung ist so gegliedert das wir als ````Backend```` einen Datenbank Server und als ````Frontend```` einen Web Server.
+
+######Backend
+
+![](images/Bild10.png)
+
+######Frontend
+
+![](images/Bild11.png)
 
 #### Volumes zur persistenten Datenablage eingerichtet
 Auf allen Container wurde das VOLUME ./archive hinzugefügt. Darin sollen dann Immer mal wieder daten archiviert werden.
