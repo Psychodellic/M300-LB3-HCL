@@ -131,11 +131,8 @@ Bis jetzt habe ich nur in einem ÜK mit Containern gearbeitet aber das war auch 
 
 ## K3
 #### Bestehenden Docker-Container kombinieren
-Luca 
+Eigene Container wurden miteinander Verbunden. Und ommunizieren zusammen.
 
-
-#### Bestehende Container als Backend, Desktop-App als Frontend  einsetzen
---
 
 #### Volumes zur persistenten Datenablage eingerichtet
 Auf allen Container wurde das VOLUME ./archive hinzugefügt. Darin sollen dann Immer mal wieder daten archiviert werden.
@@ -215,10 +212,6 @@ Siehe Punkt: [Monitoring]()
 Wird auf Webgui aktiv angezeigt.
 
 
-#### mind. 3 Aspekte der Container-Absicherung sind berücksichtigt
-Cedrc
-Haris
-
 #### Sicherheitsmassnahmen sind dokumentiert (Bezug zur eingerichteten Umgebung ist vorhanden)
 
 ##### Portmatrix
@@ -270,9 +263,6 @@ Definition:
 
 Dies ist bei und Theoretisch umsetzbar, Praktisch aber nicht wirklich sinvoll. Die Umgebung ist darauf angelegt lange zu laufen so wie sie ist. Sollte man aber mal Updates machen wollen, kann man diese ohne Probleme durchfüren.
 
-#### Cloud-Integration
-Luca 
-Cedric
 
 #### Elemente aus Kubernetesübung sind dokumentiert
 
