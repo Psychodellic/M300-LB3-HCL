@@ -3,7 +3,6 @@
 ### Inhaltsverzeichnis
 * [Team  Übersicht]()
 * [Projektbeschrieb]()
-* [Ablage Dockerfiles]()
 * [Gliederung]()
 * [K1]()
 * [K2]()
@@ -38,9 +37,6 @@ Das Vagrantfile sollte automatisch SQL instalieren und folgendes konfigruieren
 #### Monitoring Container
 Ein Container die die anderen Container überwacht.
 Alle zur verüfugung gestellten Services sollten mit diesem Container aus Sicherhetisgründen überwacht werden.
-
-## Ablage Dockerfiles
-Alle Dockerfiles findet man [hier](https://github.com/cdrc-kppr/M300-LB3-HCL/tree/master/dockerfiles)
 
 
 ## Gliederung
@@ -131,7 +127,7 @@ Bis jetzt habe ich nur in einem ÜK mit Containern gearbeitet aber das war auch 
 
 ## K3
 #### Bestehenden Docker-Container kombinieren
-Eigene Container wurden miteinander Verbunden. Und ommunizieren zusammen.
+Eigene Container wurden miteinander Verbunden. Kubernetes verbindet den DAtenbacnk server mit dem Webserver.
 
 
 #### Volumes zur persistenten Datenablage eingerichtet
@@ -169,7 +165,7 @@ Monitoring | Docker der die Services Monitort
 ![](images/NW_plan.png)
 
 
-##### Sicherheitsaspekte - Haris
+##### Sicherheitsaspekte
 Als unsere Sicherheit dient natürlich unsere Firewall und unser Monitoring System. Dank dem Monitoring können wir Sensoren setzen wo wir kontrollieren können wie Ausgelastet unser Server ist und ob bedarf besteht es zu erweitern wie zum Beispiel bei RAM, HDD etc. so können wir früh genug reagieren ohne das es Ausfälle gibt. Bei unserer Firewall sind nur die Ports Offen die benötigt werden um miteinander zu kommunizieren.
 
 ###### Monitoring 
@@ -213,6 +209,7 @@ Wird auf Webgui aktiv angezeigt.
 
 
 #### Sicherheitsmassnahmen sind dokumentiert (Bezug zur eingerichteten Umgebung ist vorhanden)
+Siehe punkt [Sicherheitsaspekte]()
 
 ##### Portmatrix
 Host | Port | IP
