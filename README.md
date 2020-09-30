@@ -49,7 +49,9 @@ Um eien Web-Server zu testen haben wir zuert einen Wordpress Server gepullt: ``d
 ``Dockerfile einfügen`` --> siehe [HIER]()
 
 ``CTRL + X``
+
 ``YES``
+
 ``ENTER``
 
 ``docker build /dockerfile``
@@ -61,10 +63,12 @@ Um eien SQL-Server zu testen haben wir zuert einen Server gepullt: ``docker pull
 * Befehle
 ``$ nano Dockerfile``
 
-``Dockerfile einfügen`` --> siehe [HIER]()
+``Dockerfile einfügen`` --> siehe [HIER](https://github.com/cdrc-kppr/M300-LB3-HCL/blob/master/dockerfiles/dockerfile_sql)
 
 ``CTRL + X``
+
 ``YES``
+
 ``ENTER``
 
 ``docker build /dockerfile``
