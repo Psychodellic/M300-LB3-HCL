@@ -38,6 +38,36 @@ Das Vagrantfile sollte automatisch SQL instalieren und folgendes konfigruieren
 Ein Container die die anderen Container überwacht.
 Alle zur verüfugung gestellten Services sollten mit diesem Container aus Sicherhetisgründen überwacht werden.
 
+#### Dockerfiles
+##### Web-Server
+
+Um eien Web-Server zu testen haben wir zuert einen Wordpress Server gepullt: ``docker pull wordpress`` & ``docker run wordpress``
+
+* Befehle
+``$ nano Dockerfile``
+
+``Dockerfile einfügen`` --> siehe [HIER]()
+
+``CTRL + X``
+``YES``
+``ENTER``
+
+``docker build /dockerfile``
+
+##### SQL-Server
+
+Um eien SQL-Server zu testen haben wir zuert einen Server gepullt: ``docker pull crate`` & ``docker run crate``
+
+* Befehle
+``$ nano Dockerfile``
+
+``Dockerfile einfügen`` --> siehe [HIER]()
+
+``CTRL + X``
+``YES``
+``ENTER``
+
+``docker build /dockerfile``
 
 ## Gliederung
 Unser Markdown ist gemäss LB Anforderungen gegliedert.
