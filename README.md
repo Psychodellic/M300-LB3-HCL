@@ -127,7 +127,7 @@ Bis jetzt habe ich nur in einem ÜK mit Containern gearbeitet aber das war auch 
 
 ## K3
 #### Bestehenden Docker-Container kombinieren
-Eigene Container wurden miteinander Verbunden. Kubernetes verbindet den DAtenbacnk server mit dem Webserver.
+Eigene Container wurden miteinander Verbunden. Kubernetes verbindet den Datenbank server mit dem Webserver.
 
 #### Bestehende Container als Backend, Desktop-App als Frontend  einsetzen
 
