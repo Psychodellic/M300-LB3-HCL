@@ -46,7 +46,7 @@ Um eien Web-Server zu testen haben wir zuert einen Wordpress Server gepullt: ``d
 * Befehle
 ``$ nano Dockerfile``
 
-``Dockerfile einfügen`` --> siehe [HIER]()
+``Dockerfile einfügen`` --> siehe [HIER](https://github.com/cdrc-kppr/M300-LB3-HCL/blob/master/dockerfiles/dockerfile_wordpress)
 
 ``CTRL + X``
 
