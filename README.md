@@ -129,15 +129,15 @@ Bis jetzt habe ich nur in einem ÜK mit Containern gearbeitet aber das war auch 
 #### Bestehenden Docker-Container kombinieren
 Eigene Container wurden miteinander Verbunden. Kubernetes verbindet den DAtenbacnk server mit dem Webserver.
 
-####Bestehende Container als Backend, Desktop-App als Frontend  einsetzen
+#### Bestehende Container als Backend, Desktop-App als Frontend  einsetzen
 
 Unsere umgebung ist so gegliedert das wir als ````Backend```` einen Datenbank Server und als ````Frontend```` einen Web Server.
 
-######Backend
+###### Backend
 
 ![](images/Bild10.png)
 
-######Frontend
+###### Frontend
 
 ![](images/Bild11.png)
 
