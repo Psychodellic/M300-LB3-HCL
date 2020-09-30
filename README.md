@@ -221,7 +221,7 @@ Haris
 
 #### Sicherheitsmassnahmen sind dokumentiert (Bezug zur eingerichteten Umgebung ist vorhanden)
 
-#####Portmatrix
+##### Portmatrix
 Host | Port | IP
 ------------ | ------------- | ------------- 
 Webserver | 80 | 192.168.1.11
@@ -248,7 +248,7 @@ Die zusammenarbeit im Team hat sehr gut funktioniert. Die aufgaben wurden gerech
 Das Projekt hat mich sehr gut weitergebracht. Ich denke ich werde sehr vieles davon (Docker und Git-Hub) in der Zukunft brauchen können. Vorallem Git-Hub, für gute, einfache und übersichtliche Dokumentationen.
 
 ##### Haris Chandrakumar
-
+Ich hatte im Betrieb bisher nichts zutun mit Docker meine einzige Erfahrung war im ZLI und im TBZ. Durch das Modul konnte ich mein Wissen wieder auffrischen und neues dazu lernen wie zum Beispiel Containeraufbau und Github da ich wie am Anfang erwähnt gar keine bis wenig Erfahrung mit diesen 2 Tools hatte. Doch durch Hilfe von meinen Teammitgliedern und recherche im Internet habe ich es schnell verstanden und konnte meinem Team helfen.
 
 ## K6
 #### Umfangreiche Vernetzung der Container-Infrastruktur (Ansätze für reale Nutzungszenarien)
@@ -270,5 +270,10 @@ Definition:
 
 Dies ist bei und Theoretisch umsetzbar, Praktisch aber nicht wirklich sinvoll. Die Umgebung ist darauf angelegt lange zu laufen so wie sie ist. Sollte man aber mal Updates machen wollen, kann man diese ohne Probleme durchfüren.
 
+#### Cloud-Integration
+Luca 
+Cedric
+
+#### Elemente aus Kubernetesübung sind dokumentiert
 
 
