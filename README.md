@@ -267,8 +267,10 @@ Dies ist bei und Theoretisch umsetzbar, Praktisch aber nicht wirklich sinvoll. D
 #### Elemente aus Kubernetesübung sind dokumentiert
 
 ###### Unterschiede zu Docker
-1. ```Kubernetes wir verwendet um Container zu CLustern```
+* 1. ```Kubernetes wir verwendet um Container zu CLustern```
 
 Docker stellt die Container als einzelne Funktionierende Images zur verfügung. in diesem fall ist kein Container vom anderen abhängig. Mit kubernetes jedoch wird die sache etwas interesanter. Man kann seine umgebung "clustern". Somit verbindet man seine Container indem Kubernetes jedem Container einen Process startet der mit dem Controller verbindet.
 
-2. ```Kubernetes funktioniert rein deklarativ```
+![](images/Bild8.png)
+
+* 2. ```Kubernetes funktioniert rein deklarativ```
